@@ -32,7 +32,7 @@
 PROGMEM byte modes[]={ 0,      10,50,255,  252,                };
 //                     dummy   main modes, battmode and strobe
 #define LOCKTIME 12 //time in 1/8 s until a mode gets locked.  12/8=1.5s
-#define BATTMON  125//enable battery monitoring with this threshold
+//#define BATTMON  125//enable battery monitoring with this threshold
 //#define BATTMON  160 // for testing...
 
 //###########################################################################################

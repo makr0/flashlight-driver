@@ -4,13 +4,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../luxdrv-030.c 
+../lux-drv.c 
 
 OBJS += \
-./luxdrv-030.o 
+./lux-drv.o 
 
 C_DEPS += \
-./luxdrv-030.d 
+./lux-drv.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
