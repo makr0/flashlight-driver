@@ -1,0 +1,2 @@
+Firmware for avr-based driver boards in 'intelligent' Flashlights.
+Tested on NANJG-105C. This driver uses an attiny13 microprocessor.
