@@ -49,7 +49,7 @@ all: lux-drv.elf secondary-outputs
 lux-drv.elf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: AVR C Linker'
-	avr-gcc -Wl,-Map,lux-drv.map -mmcu=attiny13 -o "lux-drv.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	avr-gcc -Wl,-Map,lux-drv.map -mmcu=attiny85 -o "lux-drv.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -73,7 +73,7 @@ lux-drv.eep: lux-drv.elf
 
 sizedummy: lux-drv.elf
 	@echo 'Invoking: Print Size'
-	-avr-size --format=avr --mcu=attiny13 lux-drv.elf
+	-avr-size --format=avr --mcu=attiny85 lux-drv.elf
 	@echo 'Finished building: $@'
 	@echo ' '
 

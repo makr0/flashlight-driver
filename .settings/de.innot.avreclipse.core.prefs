@@ -1,8 +1,8 @@
-#Sun Dec 12 09:36:17 CET 2010
+#Thu Aug 23 19:39:24 CEST 2012
 avrtarget/ClockFrequency=4800000
 avrtarget/ExtRAMSize=0
 avrtarget/ExtendedRAM=false
-avrtarget/MCUType=attiny13
+avrtarget/MCUType=attiny85
 avrtarget/UseEEPROM=false
 avrtarget/UseExtendedRAMforHeap=true
 avrtarget/avrdude/BitBangDelay=
@@ -15,7 +15,7 @@ avrtarget/avrdude/Fuses/ByteValues=121\:237
 avrtarget/avrdude/Fuses/FileName=
 avrtarget/avrdude/Fuses/MCUid=attiny13
 avrtarget/avrdude/Fuses/UseFile=false
-avrtarget/avrdude/Fuses/Write=true
+avrtarget/avrdude/Fuses/Write=false
 avrtarget/avrdude/NoChipErase=false
 avrtarget/avrdude/NoSigCheck=false
 avrtarget/avrdude/NoVerify=false
